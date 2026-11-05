@@ -171,7 +171,7 @@ function Index() {
       <main className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 text-center">
         <Mandala className="absolute -top-24 -left-24 w-72 opacity-30 animate-[spin_60s_linear_infinite]" />
         <Mandala className="absolute -bottom-24 -right-24 w-72 opacity-30 animate-[spin_60s_linear_infinite]" />
-        <p className="animate-in fade-in duration-1000 text-xl font-bold uppercase tracking-[0.3em] text-burgundy">Shubh Vivah</p>
+        <p className="animate-in fade-in duration-1000 font-display text-4xl uppercase tracking-[0.3em] text-burgundy">Shubh Vivah</p>
         <button
           onClick={() => { setOpen(true); window.scrollTo(0, 0); }}
           className="group relative mt-8 h-56 w-80 rounded-lg border-2 border-burgundy bg-card shadow-xl transition hover:-translate-y-1 animate-in zoom-in-95 duration-1000"
@@ -181,7 +181,7 @@ function Index() {
             <path d="M0 0 L160 120 L320 0" strokeWidth="1.5" />
             <path d="M0 224 L130 100 M320 224 L190 100" strokeWidth="0.8" />
           </svg>
-          <span className="absolute left-1/2 top-[100px] flex h-16 w-16 -translate-x-1/2 items-center justify-center rounded-full bg-dusty font-display text-xl font-semibold tracking-wide text-primary-foreground shadow-lg ring-4 ring-burgundy-soft group-hover:scale-110 transition">
+          <span className="absolute left-1/2 top-[100px] flex h-16 w-16 -translate-x-1/2 items-center justify-center rounded-full bg-dusty font-countdown text-2xl font-semibold text-primary-foreground shadow-lg ring-4 ring-burgundy-soft group-hover:scale-110 transition">
             P&T
           </span>
         </button>
@@ -205,7 +205,10 @@ function Index() {
             Pavan <span className="font-script text-[2.5rem]">&</span> Tisha
           </h1>
           <Motif className="mt-4" />
-          <p className="mx-auto mt-6 max-w-sm font-display text-lg italic text-burgundy">
+          <p className="mx-auto mt-5 max-w-sm font-display text-lg italic text-burgundy">
+            WITH THE DIVINE BLESSING OF OUR GODDESS SHREE SATYU MATA
+          </p>
+          <p className="mx-auto mt-5 max-w-sm font-display text-lg italic text-burgundy">
             Together with their families, Pavan (s/o Mr. Arjundas Dolatram Kriplani & Mrs. Monikaben Arjundas Kriplani) & Tisha (d/o Mr. Nareshbhai Thavrani & Mrs. Dakshaben Thavrani) request the honour of your presence as we begin our journey of love, laughter, and blessings
           </p>
         </Reveal>
@@ -250,7 +253,7 @@ function Index() {
         </Reveal>
         <Reveal>
           <div className="mx-auto mt-10 max-w-sm rounded-lg border-2 border-burgundy bg-card p-8 shadow-lg transition-all duration-500 hover:shadow-2xl hover:scale-105 hover:border-burgundy-gradient">
-            <h3 className="font-display text-3xl text-dusty">Matoshree Party Plot</h3>
+            <h3 className="font-display text-3xl font-bold text-dusty">Matoshree Party Plot</h3>
             <p className="mt-2 text-burgundy">Latuda, Surendranagar<br />Gujarat, India</p>
             <a
               href="https://www.google.com/maps/search/?api=1&query=Matoshree%20Party%20Plot%2C%20Latuda%2C%20Surendranagar%2C%20Gujarat"
@@ -282,7 +285,7 @@ function Index() {
 
         <Reveal>
           <div className="mx-auto mt-10 max-w-sm rounded-lg border-2 border-burgundy bg-card p-8 shadow-lg transition-all duration-500 hover:shadow-2xl hover:scale-105 hover:border-burgundy-gradient">
-            <h3 className="font-display text-3xl text-dusty">Gurudwara</h3>
+            <h3 className="font-display text-3xl font-bold text-dusty">Shree Gurudwara Sahib</h3>
             <p className="mt-2 text-burgundy">Gurudwara Rd, Limda Ln<br />Jamnagar, Gujarat 361006</p>
             <a
               href="https://www.google.com/maps/search/?api=1&query=Gurudwara%20Rd%2C%20Limda%20Ln%2C%20Jamnagar%2C%20Gujarat%20361006"
@@ -313,15 +316,25 @@ function Index() {
             <p className="col-span-3 text-center">Indiraben Dolatram Kriplani</p>
           </div>
 
-          <p className="mt-10 font-script text-3xl italic text-burgundy">Little Invitee:</p>
-          <p className="mx-auto mt-5 max-w-sm font-display text-lg italic text-dusty">
-            Chachu ki shaadi mein jalool-jalool aana hai - Netra
-          </p>
-
           <p className="mt-10 font-script text-3xl italic text-burgundy">With blessings of:</p>
           <div className="mt-5 space-y-2 font-display text-lg text-dusty">
             <p>Late Shri Dolatram Chelaram Kriplani</p>
             <p>Late Shri Dipakbhai Dolatram Kriplani</p>
+          </div>
+
+          <p className="mt-10 font-script text-3xl italic text-burgundy">Well wisher:</p>
+          <div className="mt-5 space-y-2 font-display text-lg text-dusty">
+            <p>Holaram Gopaldas Ramchandani</p>
+            <p>Pooja Holaram Ramchandani</p>
+            <p>Madhu Dipakbhai kriplani</p>
+          </div>
+
+          <p className="mt-10 font-script text-3xl italic text-burgundy">Little Invitee:</p>
+          <div className="mx-auto mt-5 max-w-md space-y-3 font-display text-lg text-dusty">
+              <p>Chachu ki shaadi mein jalool-jalool aana hai - Netra</p>
+            <p>Dhol taashe hue puraane, music carnival & dj ka zamaana hai !</p>
+            <p>Aana to aapako padega ham bacho ka bulawa hai !</p>
+              <p className="text-base">- Netra, Mishti, Mahir, Devik, Jashvi, Devansh, Kaira !!</p>
           </div>
 
           <p className="mt-10 font-script text-3xl italic text-burgundy">Firm:</p>
@@ -336,10 +349,6 @@ function Index() {
       <footer className="relative px-6 pt-12 pb-20 text-center">
         <Reveal>
           <Motif />
-          <p className="mx-auto mt-6 max-w-xs font-display text-2xl text-dusty">
-            We can't wait to celebrate this special beginning with you.
-          </p>
-          <p className="mt-6 font-script text-4xl text-burgundy">Pavan & Tisha</p>
         </Reveal>
       </footer>
     </main>
