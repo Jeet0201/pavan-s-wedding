@@ -137,13 +137,13 @@ function Countdown() {
 }
 
 const events = [
-  { day: "Dec 1, 2026", name: "Muda Vidhi", time: "9:30 AM", note: "Auspicious beginnings with Ganesh Sthapana" },
-  { day: "Dec 1, 2026", name: "Haldi & Music Carnival", time: "10:00 AM", note: "A multi-colour theme, flower haldi & sindhi lada" },
+  { day: "Dec 1, 2026", name: "Muda Vidhi", time: "9:30 AM", note: "Auspicious Beginnings With Ganesh Sthapana" },
+  { day: "Dec 1, 2026", name: "Haldi & Music Carnival", time: "10:00 AM", note: "A Multi-Colour Theme, Flower Haldi & Sindhi Lada" },
   { day: "Dec 1, 2026", name: "Sangeet Sandhya", time: "6:00 PM", note: "DJ Night & Garba" },
   { day: "Dec 1, 2026", name: "Sat Son & Ghadiyu", time: "11:00 PM", note: "Traditional Sindhi Rituals" },
-  { day: "Dec 1, 2026", name: "DINNER", time: "8:00 PM", note: "A joyful evening feast with family and friends" },
+  { day: "Dec 1, 2026", name: "Dinner", time: "8:00 PM", note: "A Joyful Evening Feast With Family And Friends" },
   { day: "Dec 2, 2026", name: "Dikh", time: "10:00 AM", note: "Mugat Vidhi Celebration" },
-  { day: "Dec 2, 2026", name: "Departure for wedding", time: "02:00 PM", note: "A Travel With Love, Joy & Excitement" },
+  { day: "Dec 2, 2026", name: "Departure For Wedding", time: "02:00 PM", note: "A Travel With Love, Joy & Excitement" },
 ];
 
 const venueDetails = [
@@ -193,7 +193,7 @@ function Index() {
           </span>
         </button>
         <h1 className="mx-auto mt-10 w-fit font-display text-4xl text-dusty-gradient">You're Invited</h1>
-        <p className="mt-3 animate-pulse text-sm uppercase tracking-[0.3em] text-burgundy">Tap to Open</p>
+        <p className="mt-3 animate-pulse text-sm uppercase tracking-[0.3em] text-burgundy">Tap To Open</p>
       </main>
     </>
     );
@@ -224,7 +224,7 @@ function Index() {
       </section>
 
       {/* Date */}
-      <Section kicker="Save the Date" title="December 1 – 3, 2026">
+      <Section kicker="Save The Date" title="December 1 – 3, 2026">
         <Reveal>
           <div className="animate-in zoom-in-95 duration-700">
             <Countdown />
@@ -261,7 +261,7 @@ function Index() {
               target="_blank" rel="noopener noreferrer"
               className="mt-6 inline-block rounded-full bg-burgundy-gradient px-6 py-3 text-sm uppercase tracking-widest text-primary-foreground shadow-md transition-all duration-300 hover:scale-110 hover:shadow-xl active:scale-95"
             >
-              View on Google Maps
+              View On Google Maps
             </a>
           </div>
         </Reveal>
@@ -293,7 +293,7 @@ function Index() {
               target="_blank" rel="noopener noreferrer"
               className="mt-6 inline-block rounded-full bg-burgundy-gradient px-6 py-3 text-sm uppercase tracking-widest text-primary-foreground shadow-md transition-all duration-300 hover:scale-110 hover:shadow-xl active:scale-95"
             >
-              View on Google Maps
+              View On Google Maps
             </a>
           </div>
         </Reveal>
