@@ -341,9 +341,8 @@ function Index() {
           </div>
 
           <p className="mt-10 font-script text-3xl italic text-burgundy">Firm:</p>
-          <div className="mx-auto mt-5 flex flex-nowrap items-center justify-center gap-x-4 whitespace-nowrap font-display text-lg text-dusty">
+          <div className="mx-auto mt-5 flex flex-col items-center gap-y-2 font-display text-lg text-dusty">
             <p><span className="font-countdown">1.</span> Aavo Aavo Super Store</p>
-            <span aria-hidden="true">|</span>
             <p><span className="font-countdown">2.</span> Ajit Kumar Dolatram</p>
           </div>
         </Reveal>
