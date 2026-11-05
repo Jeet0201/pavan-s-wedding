@@ -137,18 +137,18 @@ function Countdown() {
 }
 
 const events = [
-  { day: "Dec 1, 2026", name: "Muda Vidhi", time: "9:30 AM", note: "Auspicious Beginnings With Ganesh Sthapana" },
-  { day: "Dec 1, 2026", name: "Haldi & Music Carnival", time: "10:00 AM", note: "A Multi-Colour Theme, Flower Haldi & Sindhi Lada" },
-  { day: "Dec 1, 2026", name: "Sangeet Sandhya", time: "6:00 PM", note: "DJ Night & Garba" },
-  { day: "Dec 1, 2026", name: "Dinner", time: "8:00 PM", note: "A Joyful Evening Feast With Family And Friends" },
-  { day: "Dec 1, 2026", name: "Sat Son & Ghadiyu", time: "11:00 PM", note: "Traditional Sindhi Rituals" },
-  { day: "Dec 2, 2026", name: "Dikh", time: "10:00 AM", note: "Mugat Vidhi Celebration" },
-  { day: "Dec 2, 2026", name: "Departure For Wedding", time: "02:00 PM", note: "A Travel With Love, Joy & Excitement" },
+  { day: "Dec 1, 2026", name: "Muda Vidhi", time: "9:30 AM", note: "Auspicious beginnings with ganesh sthapana" },
+  { day: "Dec 1, 2026", name: "Haldi & Music Carnival", time: "10:00 AM", note: "A multi-colour theme, flower haldi & sindhi lada" },
+  { day: "Dec 1, 2026", name: "Sangeet Sandhya", time: "6:00 PM", note: "Dj night & garba" },
+  { day: "Dec 1, 2026", name: "Dinner", time: "8:00 PM", note: "A joyful evening feast with family and friends" },
+  { day: "Dec 1, 2026", name: "Sat Son & Ghadiyu", time: "11:00 PM", note: "Traditional sindhi rituals" },
+  { day: "Dec 2, 2026", name: "Dikh", time: "10:00 AM", note: "Mugat vidhi celebration" },
+  { day: "Dec 2, 2026", name: "Departure For Wedding", time: "02:00 PM", note: "A travel with love, joy & excitement" },
 ];
 
 const venueDetails = [
-  { date: "Dec 3, 2026", time: "8:00 AM", title: "Wedding Procession", note: "Band Baaja Baraat" },
-  { date: "Dec 3, 2026", time: "11:00 AM", title: "Laavaan", note: "Sikh Wedding Ceremony" },
+  { date: "Dec 3, 2026", time: "8:00 AM", title: "Wedding Procession", note: "Band baaja baraat" },
+  { date: "Dec 3, 2026", time: "11:00 AM", title: "Laavaan", note: "Sikh wedding ceremony" },
 ];
 
 function Index() {
@@ -206,7 +206,7 @@ function Index() {
           </h1>
           <Motif className="mt-4" />
           <p className="mx-auto mt-6 max-w-sm font-display text-lg italic text-burgundy">
-            Together with their families, Pavan and Tisha request the honour of your presence as we begin our journey of love, laughter, and blessings.
+            Together with their families, Pavan (s/o Mr. Arjundas Dolatram Kriplani & Mrs. Monikaben Arjundas Kriplani) & Tisha (d/o Mr. Nareshbhai Thavrani & Mrs. Dakshaben Thavrani) request the honour of your presence as we begin our journey of love, laughter, and blessings
           </p>
         </Reveal>
         <Reveal className="mt-10">
