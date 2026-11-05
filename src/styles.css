@@ -7,6 +7,8 @@
   --font-display: "Cormorant Garamond", serif;
   --font-script: "Great Vibes", cursive;
   --font-sans: "Jost", sans-serif;
+  --font-mono: "JetBrains Mono", "Space Grotesk", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-countdown: "Freestyle Script", "Great Vibes", "Brush Script MT", cursive;
   --color-background: var(--background);
   --color-card: var(--card);
   --color-foreground: var(--foreground);

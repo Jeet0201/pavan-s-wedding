@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const WEDDING = new Date("2026-12-03T00:00:00+05:30").getTime();
+const WEDDING = new Date("2026-12-03T10:00:00+05:30").getTime();
 
 function Motif({ className = "" }: { className?: string }) {
   return (
@@ -97,7 +97,7 @@ function Reveal({ children, className = "" }: { children: ReactNode; className?:
   return <div className={`reveal ${className}`}>{children}</div>;
 }
 
-function Section({ title, kicker, children }: { title: string; kicker: string; children: ReactNode }) {
+function Section({ title, kicker, children }: { title: ReactNode; kicker: string; children: ReactNode }) {
   return (
     <section className="px-6 py-20 text-center">
       <Reveal>
@@ -128,7 +128,7 @@ function Countdown() {
     <div className="mx-auto grid max-w-sm grid-cols-4 gap-3">
       {parts.map(([l, v]) => (
         <div key={l} className="rounded-lg border bg-card py-4 shadow-sm">
-          <div className="font-display text-3xl text-dusty">{now === null ? "--" : String(v).padStart(2, "0")}</div>
+          <div className="font-countdown text-4xl text-dusty">{now === null ? "--" : String(v).padStart(2, "0")}</div>
           <div className="mt-1 text-[10px] uppercase tracking-widest text-burgundy">{l}</div>
         </div>
       ))}
@@ -171,7 +171,7 @@ function Index() {
       <main className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 text-center">
         <Mandala className="absolute -top-24 -left-24 w-72 opacity-30 animate-[spin_60s_linear_infinite]" />
         <Mandala className="absolute -bottom-24 -right-24 w-72 opacity-30 animate-[spin_60s_linear_infinite]" />
-        <p className="animate-in fade-in duration-1000 text-xs uppercase tracking-[0.4em] text-burgundy">Shubh Vivah</p>
+        <p className="animate-in fade-in duration-1000 text-xl font-bold uppercase tracking-[0.3em] text-burgundy">Shubh Vivah</p>
         <button
           onClick={() => { setOpen(true); window.scrollTo(0, 0); }}
           className="group relative mt-8 h-56 w-80 rounded-lg border-2 border-burgundy bg-card shadow-xl transition hover:-translate-y-1 animate-in zoom-in-95 duration-1000"
@@ -181,7 +181,7 @@ function Index() {
             <path d="M0 0 L160 120 L320 0" strokeWidth="1.5" />
             <path d="M0 224 L130 100 M320 224 L190 100" strokeWidth="0.8" />
           </svg>
-          <span className="absolute left-1/2 top-[100px] flex h-16 w-16 -translate-x-1/2 items-center justify-center rounded-full bg-dusty font-script text-2xl text-primary-foreground shadow-lg ring-4 ring-burgundy-soft group-hover:scale-110 transition">
+          <span className="absolute left-1/2 top-[100px] flex h-16 w-16 -translate-x-1/2 items-center justify-center rounded-full bg-dusty font-display text-xl font-semibold tracking-wide text-primary-foreground shadow-lg ring-4 ring-burgundy-soft group-hover:scale-110 transition">
             P&T
           </span>
         </button>
@@ -217,7 +217,10 @@ function Index() {
       </section>
 
       {/* Date */}
-      <Section kicker="Save The Date" title="December 1 – 3, 2026">
+      <Section
+        kicker="Save The Date"
+        title={<>December <span className="font-countdown">1</span> – <span className="font-countdown">3</span>, 2026</>}
+      >
         <Reveal>
           <div className="animate-in zoom-in-95 duration-700">
             <Countdown />
@@ -259,7 +262,7 @@ function Index() {
           </div>
         </Reveal>
 
-        <Reveal className="mx-auto mt-8 max-w-sm text-left">
+        <Reveal className="mx-auto mt-14 max-w-sm text-left">
           <ol className="relative space-y-10 border-l border-burgundy">
             {venueDetails.map((detail) => (
               <li key={`${detail.title}-${detail.time}`} className="relative ml-6">
@@ -273,7 +276,7 @@ function Index() {
         </Reveal>
 
         <Reveal className="mt-12">
-          <p className="font-script text-3xl text-burgundy">The Venue</p>
+          <p className="font-script text-3xl text-burgundy">The Wedding Venue</p>
           <Motif className="mt-4" />
         </Reveal>
 
@@ -297,15 +300,22 @@ function Index() {
         <Reveal>
           <Motif />
           <p className="mt-8 font-script text-3xl italic text-burgundy">Invitees:</p>
-          <div className="mt-5 space-y-2 font-display text-lg text-dusty">
-            <p>Shri Arjundas Kriplani</p>
-            <p>Shri Ghanshyam Bhai Kriplani</p>
-            <p>Shri Ashok Kumar Kriplani</p>
+          <div className="mx-auto mt-5 grid w-fit max-w-full grid-cols-[auto_auto_auto] gap-x-3 gap-y-3 font-display text-lg text-dusty">
+            <p className="text-left">Arjundas</p>
+            <p className="text-center">&</p>
+            <p className="text-right">Monikaben Kriplani</p>
+            <p className="text-left">Ghanshyam Bhai</p>
+            <p className="text-center">&</p>
+            <p className="text-right">Karunaben Kriplani</p>
+            <p className="text-left">Ashok Kumar</p>
+            <p className="text-center">&</p>
+            <p className="text-right">Nilamben Kriplani</p>
+            <p className="col-span-3 text-center">Indiraben Dolatram Kriplani</p>
           </div>
 
           <p className="mt-10 font-script text-3xl italic text-burgundy">Little Invitee:</p>
           <p className="mx-auto mt-5 max-w-sm font-display text-lg italic text-dusty">
-            'Mere chachu ki sadi me jarur aana - Netra Kriplani'
+            Chachu ki shaadi mein jalool-jalool aana hai - Netra
           </p>
 
           <p className="mt-10 font-script text-3xl italic text-burgundy">With blessings of:</p>
@@ -315,9 +325,10 @@ function Index() {
           </div>
 
           <p className="mt-10 font-script text-3xl italic text-burgundy">Firm:</p>
-          <div className="mt-5 space-y-2 font-display text-lg text-dusty">
-            <p>(1) Aavo Aavo Super Store</p>
-            <p>(2) Ajit Kumar Dolatram</p>
+          <div className="mx-auto mt-5 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 font-display text-lg text-dusty">
+            <p><span className="font-countdown">1.</span> Aavo Aavo Super Store</p>
+            <span aria-hidden="true">|</span>
+            <p><span className="font-countdown">2.</span> Ajit Kumar Dolatram</p>
           </div>
         </Reveal>
       </section>
