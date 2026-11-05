@@ -299,15 +299,15 @@ function Index() {
           <p className="mt-8 font-script text-3xl italic text-burgundy">Together With Their Families,</p>
           <p className="mt-8 font-display text-4xl font-bold tracking-[0.18em] text-dusty">PAVAN</p>
           <p className="mx-auto mt-3 max-w-sm font-display text-base italic text-burgundy">
-            ( s/o Mr. Arjundas Dolatram Kriplani & Mrs. Monika Arjundas Kriplani )
+            ( S/O Mr. Arjundas Dolatram Kriplani & Mrs. Monikaben Arjundas Kriplani )
           </p>
           <p className="mt-8 font-script text-4xl text-burgundy">&</p>
           <p className="mt-6 font-display text-4xl font-bold tracking-[0.18em] text-dusty">TISHA</p>
           <p className="mx-auto mt-3 max-w-sm font-display text-base italic text-burgundy">
-            ( d/o Mr. Naresh Thavrani & Mrs. Daksha Thavrani )
+            ( D/O Mr. Nareshbhai Thavrani & Mrs. Dakshaben Thavrani )
           </p>
           <p className="mx-auto mt-10 max-w-sm font-display text-xl italic text-burgundy">
-            Request The Honour Of Your Presence As We Begin With Our Journey Of Love, Laughter And Blessings
+            Request the honour of your presence as we begin with our Journey of Love, Laughter and Blessings
           </p>
         </Reveal>
       </section>
