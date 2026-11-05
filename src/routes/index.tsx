@@ -181,7 +181,10 @@ function Index() {
             <path d="M0 0 L160 120 L320 0" strokeWidth="1.5" />
             <path d="M0 224 L130 100 M320 224 L190 100" strokeWidth="0.8" />
           </svg>
-          <span className="absolute left-1/2 top-[100px] flex h-16 w-16 -translate-x-1/2 items-center justify-center rounded-full bg-dusty font-countdown text-2xl font-semibold text-primary-foreground shadow-lg ring-4 ring-burgundy-soft group-hover:scale-110 transition">
+          <span
+            className="absolute left-1/2 top-[100px] flex h-16 w-16 -translate-x-1/2 items-center justify-center rounded-full bg-dusty font-countdown text-2xl font-semibold text-primary-foreground shadow-lg ring-4 ring-burgundy-soft group-hover:scale-110 transition"
+            style={{ fontFamily: '"Freestyle Script", "Great Vibes", "Brush Script MT", cursive', fontSize: "1.5rem" }}
+          >
             P&T
           </span>
         </button>
