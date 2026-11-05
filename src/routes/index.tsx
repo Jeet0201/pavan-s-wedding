@@ -303,6 +303,11 @@ function Index() {
             <p>Shri Ashok Kumar Kriplani</p>
           </div>
 
+          <p className="mt-10 font-script text-3xl italic text-burgundy">Little Invitee:</p>
+          <p className="mx-auto mt-5 max-w-sm font-display text-lg italic text-dusty">
+            'Mere chachu ki sadi me jarur aana - Netra Kriplani'
+          </p>
+
           <p className="mt-10 font-script text-3xl italic text-burgundy">With blessings of:</p>
           <div className="mt-5 space-y-2 font-display text-lg text-dusty">
             <p>Late Shri Dolatram Chelaram Kriplani</p>
@@ -314,11 +319,6 @@ function Index() {
             <p>(1) Aavo Aavo Super Store</p>
             <p>(2) Ajit Kumar Dolatram</p>
           </div>
-
-          <p className="mt-10 font-script text-3xl italic text-burgundy">Little Invitee:</p>
-          <p className="mx-auto mt-5 max-w-sm font-display text-lg italic text-dusty">
-            'Mere chachu ki sadi me jarur aana - Netra Kriplani
-          </p>
         </Reveal>
       </section>
 
