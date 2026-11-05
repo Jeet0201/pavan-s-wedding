@@ -151,13 +151,6 @@ const venueDetails = [
   { date: "Dec 3, 2026", time: "11:00 AM", title: "Laavaan", note: "Sikh Wedding Ceremony" },
 ];
 
-const swatches = [
-  ["bg-swatch-1", "Burgundy"],
-  ["bg-swatch-2", "Dusty Red"],
-  ["bg-swatch-3", "Marigold"],
-  ["bg-swatch-4", "Peacock Green"],
-];
-
 function Index() {
   const [open, setOpen] = useState(false);
 
@@ -299,22 +292,25 @@ function Index() {
         </Reveal>
       </section>
 
-      {/* Dress code */}
-      <Section kicker="" title="Dress Code">
+      {/* Invitation introduction */}
+      <section className="px-6 py-20 text-center">
         <Reveal>
-          <p className="mx-auto max-w-sm font-display text-lg italic text-burgundy animate-in fade-in slide-in-from-top-4 duration-700">
-            Festive traditional wear — think chaniya choli, bandhani, kediyu and sherwanis in rich, joyful hues.
+          <Motif />
+          <p className="mt-8 font-script text-3xl italic text-burgundy">Together With Their Families,</p>
+          <p className="mt-8 font-display text-4xl font-bold tracking-[0.18em] text-dusty">PAVAN</p>
+          <p className="mx-auto mt-3 max-w-sm font-display text-base italic text-burgundy">
+            ( s/o Mr. Arjundas Dolatram Kriplani & Mrs. Monika Arjundas Kriplani )
           </p>
-          <div className="mt-8 flex justify-center gap-5">
-            {swatches.map(([c, n], i) => (
-              <div key={n} className="flex flex-col items-center gap-2 animate-in fade-in slide-in-from-bottom-4 duration-700" style={{ animationDelay: `${i * 100}ms` }}>
-                <span className={`h-12 w-12 rounded-full ${c} ring-2 ring-burgundy-soft ring-offset-2 ring-offset-background transition-all duration-300 hover:scale-125 hover:ring-4 hover:shadow-lg cursor-pointer`} />
-                <span className="text-[10px] uppercase tracking-wider text-burgundy">{n}</span>
-              </div>
-            ))}
-          </div>
+          <p className="mt-8 font-script text-4xl text-burgundy">&</p>
+          <p className="mt-6 font-display text-4xl font-bold tracking-[0.18em] text-dusty">TISHA</p>
+          <p className="mx-auto mt-3 max-w-sm font-display text-base italic text-burgundy">
+            ( d/o Mr. Naresh Thavrani & Mrs. Daksha Thavrani )
+          </p>
+          <p className="mx-auto mt-10 max-w-sm font-display text-xl italic text-burgundy">
+            Request The Honour Of Your Presence As We Begin With Our Journey Of Love, Laughter And Blessings
+          </p>
         </Reveal>
-      </Section>
+      </section>
 
       <footer className="relative px-6 pt-12 pb-20 text-center">
         <Reveal>
