@@ -296,13 +296,7 @@ function Index() {
       <section className="px-6 py-20 text-center">
         <Reveal>
           <Motif />
-          <p className="mt-8 font-script text-3xl italic text-burgundy">Firm:</p>
-          <div className="mt-5 space-y-2 font-display text-lg text-dusty">
-            <p>(1) Aavo Aavo Super Store</p>
-            <p>(2) Ajit Kumar Dolatram</p>
-          </div>
-
-          <p className="mt-10 font-script text-3xl italic text-burgundy">Invitees:</p>
+          <p className="mt-8 font-script text-3xl italic text-burgundy">Invitees:</p>
           <div className="mt-5 space-y-2 font-display text-lg text-dusty">
             <p>Shri Arjundas Kriplani</p>
             <p>Shri Ghanshyam Bhai Kriplani</p>
@@ -314,6 +308,17 @@ function Index() {
             <p>Late Shri Dolatram Chelaram Kriplani</p>
             <p>Late Shri Dipakbhai Dolatram Kriplani</p>
           </div>
+
+          <p className="mt-10 font-script text-3xl italic text-burgundy">Firm:</p>
+          <div className="mt-5 space-y-2 font-display text-lg text-dusty">
+            <p>(1) Aavo Aavo Super Store</p>
+            <p>(2) Ajit Kumar Dolatram</p>
+          </div>
+
+          <p className="mt-10 font-script text-3xl italic text-burgundy">Little Invitee:</p>
+          <p className="mx-auto mt-5 max-w-sm font-display text-lg italic text-dusty">
+            'Mere chachu ki sadi me jarur aana - Netra Kriplani
+          </p>
         </Reveal>
       </section>
 
