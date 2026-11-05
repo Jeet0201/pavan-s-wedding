@@ -140,8 +140,8 @@ const events = [
   { day: "Dec 1, 2026", name: "Muda Vidhi", time: "9:30 AM", note: "Auspicious Beginnings With Ganesh Sthapana" },
   { day: "Dec 1, 2026", name: "Haldi & Music Carnival", time: "10:00 AM", note: "A Multi-Colour Theme, Flower Haldi & Sindhi Lada" },
   { day: "Dec 1, 2026", name: "Sangeet Sandhya", time: "6:00 PM", note: "DJ Night & Garba" },
-  { day: "Dec 1, 2026", name: "Sat Son & Ghadiyu", time: "11:00 PM", note: "Traditional Sindhi Rituals" },
   { day: "Dec 1, 2026", name: "Dinner", time: "8:00 PM", note: "A Joyful Evening Feast With Family And Friends" },
+  { day: "Dec 1, 2026", name: "Sat Son & Ghadiyu", time: "11:00 PM", note: "Traditional Sindhi Rituals" },
   { day: "Dec 2, 2026", name: "Dikh", time: "10:00 AM", note: "Mugat Vidhi Celebration" },
   { day: "Dec 2, 2026", name: "Departure For Wedding", time: "02:00 PM", note: "A Travel With Love, Joy & Excitement" },
 ];
