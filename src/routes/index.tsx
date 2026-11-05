@@ -137,10 +137,11 @@ function Countdown() {
 }
 
 const events = [
-  { day: "Dec 1, 2026", name: "Mandap Muhurat (Muda Vidhi)", time: "9:30 AM", note: "Auspicious beginnings with Ganesh Sthapana" },
+  { day: "Dec 1, 2026", name: "Muda Vidhi", time: "9:30 AM", note: "Auspicious beginnings with Ganesh Sthapana" },
   { day: "Dec 1, 2026", name: "Haldi & Music Carnival", time: "10:00 AM", note: "A multi-colour theme, flower haldi & sindhi lada" },
   { day: "Dec 1, 2026", name: "Sangeet Sandhya", time: "6:00 PM", note: "DJ Night & Garba" },
   { day: "Dec 1, 2026", name: "Sat Son & Ghadiyu", time: "11:00 PM", note: "Traditional Sindhi Rituals" },
+  { day: "Dec 1, 2026", name: "DINNER", time: "8:00 PM", note: "A joyful evening feast with family and friends" },
   { day: "Dec 2, 2026", name: "Dikh", time: "10:00 AM", note: "Mugat Vidhi Celebration" },
   { day: "Dec 2, 2026", name: "Departure for wedding", time: "02:00 PM", note: "A Travel With Love, Joy & Excitement" },
 ];
