@@ -292,27 +292,28 @@ function Index() {
         </Reveal>
       </section>
 
-      {/* Invitation introduction */}
+      {/* Family and blessings */}
       <section className="px-6 py-20 text-center">
         <Reveal>
           <Motif />
-          <p className="mt-8 font-script text-3xl italic text-burgundy">Together With Their Families,</p>
-          <p className="mt-8 font-display text-4xl font-bold tracking-[0.18em] text-dusty">PAVAN</p>
-          <p className="mx-auto mt-3 max-w-sm font-display text-base italic text-burgundy">
-            ( S/O Mr. Arjundas Dolatram Kriplani
-            <br />&<br />
-            Mrs. Monikaben Arjundas Kriplani )
-          </p>
-          <p className="mt-8 font-script text-4xl text-burgundy">&</p>
-          <p className="mt-6 font-display text-4xl font-bold tracking-[0.18em] text-dusty">TISHA</p>
-          <p className="mx-auto mt-3 max-w-sm font-display text-base italic text-burgundy">
-            ( D/O Mr. Nareshbhai Deepchand Thavrani
-            <br />&<br />
-            Mrs. Dakshaben Narshbhai Thavrani )
-          </p>
-          <p className="mx-auto mt-10 max-w-sm font-display text-xl italic text-burgundy">
-            Request the honour of your presence as we begin with our Journey of Love, Laughter and Blessings
-          </p>
+          <p className="mt-8 font-script text-3xl italic text-burgundy">Firm:</p>
+          <div className="mt-5 space-y-2 font-display text-lg text-dusty">
+            <p>(1) Aavo Aavo Super Store</p>
+            <p>(2) Ajit Kumar Dolatram</p>
+          </div>
+
+          <p className="mt-10 font-script text-3xl italic text-burgundy">Invitees:</p>
+          <div className="mt-5 space-y-2 font-display text-lg text-dusty">
+            <p>Shri Arjundas Kriplani</p>
+            <p>Shri Ghanshyam Bhai Kriplani</p>
+            <p>Shri Ashok Kumar Kriplani</p>
+          </div>
+
+          <p className="mt-10 font-script text-3xl italic text-burgundy">With blessings of:</p>
+          <div className="mt-5 space-y-2 font-display text-lg text-dusty">
+            <p>Late Shri Dolatram Chelaram Kriplani</p>
+            <p>Late Shri Dipakbhai Dolatram Kriplani</p>
+          </div>
         </Reveal>
       </section>
 
