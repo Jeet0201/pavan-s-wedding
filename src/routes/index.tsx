@@ -344,7 +344,7 @@ function Index() {
             <p className="text-right">Nilamben Kriplani</p>
             <p className="text-left">Karankumar</p>
             <p className="text-center">&</p>
-            <p className="text-right">Kiranben Kriplani</p>
+            <p className="text-right">Kiran</p>
             <p className="col-span-3 text-center">Madhu Dipakbhai Kriplani</p>
           </div>
         </Reveal>
