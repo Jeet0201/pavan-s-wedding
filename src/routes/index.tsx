@@ -331,21 +331,21 @@ function Index() {
         </Reveal>
         
         <Reveal>
-          <div className="mx-auto mt-5 grid w-fit max-w-full grid-cols-[auto_auto_auto] gap-x-3 gap-y-3 font-display text-lg text-dusty">
-            <p className="col-span-3 text-center">Indiraben Dolatram Kriplani</p>
-            <p className="text-left">Arjundas</p>
-            <p className="text-center">&</p>
-            <p className="text-right">Monikaben Kriplani</p>
-            <p className="text-left">Ghanshyam Bhai</p>
-            <p className="text-center">&</p>
-            <p className="text-right">Karunaben Kriplani</p>
-            <p className="text-left">Ashok Kumar</p>
-            <p className="text-center">&</p>
-            <p className="text-right">Nilam Kriplani</p>
-            <p className="text-left">Karankumar</p>
-            <p className="text-center">&</p>
-            <p className="text-right">Kiran Kriplani</p>
-            <p className="col-span-3 text-center">Madhu Dipakbhai Kriplani</p>
+          <div className="mx-auto mt-5 grid w-fit grid-cols-[auto_auto_auto] gap-x-3 gap-y-3 font-display text-lg text-dusty" style={{ minWidth: 'max-content' }}>
+            <p className="col-span-3 text-center whitespace-nowrap">Indiraben Dolatram Kriplani</p>
+            <p className="text-left whitespace-nowrap">Arjundas</p>
+            <p className="text-center whitespace-nowrap">&</p>
+            <p className="text-right whitespace-nowrap">Monikaben Kriplani</p>
+            <p className="text-left whitespace-nowrap">Ghanshyam Bhai</p>
+            <p className="text-center whitespace-nowrap">&</p>
+            <p className="text-right whitespace-nowrap">Karunaben Kriplani</p>
+            <p className="text-left whitespace-nowrap">Ashok Kumar</p>
+            <p className="text-center whitespace-nowrap">&</p>
+            <p className="text-right whitespace-nowrap">Nilamben Kriplani</p>
+            <p className="text-left whitespace-nowrap">Karankumar</p>
+            <p className="text-center whitespace-nowrap">&</p>
+            <p className="text-right whitespace-nowrap">Kiranben Kriplani</p>
+            <p className="col-span-3 text-center whitespace-nowrap">Madhu Dipakbhai Kriplani</p>
           </div>
         </Reveal>
 
