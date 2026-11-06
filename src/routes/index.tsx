@@ -321,7 +321,13 @@ function Index() {
       <section className="px-6 py-20 text-center">
         <Reveal>
           <Motif />
+        </Reveal>
+        
+        <Reveal>
           <p className="mt-8 font-script text-3xl italic text-burgundy">Invitees:</p>
+        </Reveal>
+        
+        <Reveal>
           <div className="mx-auto mt-5 grid w-fit max-w-full grid-cols-[auto_auto_auto] gap-x-3 gap-y-3 font-display text-lg text-dusty">
             <p className="col-span-3 text-center">Indiraben Dolatram Kriplani</p>
             <p className="text-left">Arjundas</p>
@@ -337,29 +343,49 @@ function Index() {
             <p className="text-center">&</p>
             <p className="text-right">Kiranben Kriplani</p>
           </div>
+        </Reveal>
 
+        <Reveal>
           <p className="mt-10 font-script text-3xl italic text-burgundy">With blessings of:</p>
+        </Reveal>
+        
+        <Reveal>
           <div className="mt-5 space-y-2 font-display text-lg text-dusty">
             <p>Late Shri Dolatram Chelaram Kriplani</p>
             <p>Late Shri Dipakbhai Dolatram Kriplani</p>
           </div>
+        </Reveal>
 
+        <Reveal>
           <p className="mt-10 font-script text-3xl italic text-burgundy">Well wisher:</p>
+        </Reveal>
+        
+        <Reveal>
           <div className="mt-5 space-y-2 font-display text-lg text-dusty">
             <p>Holaram Gopaldas Ramchandani</p>
             <p>Pooja Holaram Ramchandani</p>
             <p>Madhu Dipakbhai kriplani</p>
           </div>
+        </Reveal>
 
+        <Reveal>
           <p className="mt-10 font-script text-3xl italic text-burgundy">Little Invitee:</p>
+        </Reveal>
+        
+        <Reveal>
           <div className="mx-auto mt-5 max-w-md space-y-3 font-display text-lg text-dusty">
             <p>Mere chachu - chachi ki jodi hai kamal , shaadi me aana jarur karenge ham dhamal - Netra</p>
             <p>Dhol taashe hue puraane, music carnival & dj ka zamaana hai,</p>
             <p>Aana to aapako padega ham bacho ka bulawa hai,</p>
             <p className="text-base">- Netra, Mishti, Mahir, Devik, Jashvi, Devansh, Kaira !!</p>
           </div>
+        </Reveal>
 
+        <Reveal>
           <p className="mt-10 font-script text-3xl italic text-burgundy">Firm:</p>
+        </Reveal>
+        
+        <Reveal>
           <div className="mx-auto mt-5 flex flex-col items-center gap-y-2 font-display text-lg text-dusty">
             <p><span className="font-countdown">1.</span> Aavo Aavo Super Store</p>
             <p><span className="font-countdown">2.</span> Ajit Kumar Dolatram</p>
