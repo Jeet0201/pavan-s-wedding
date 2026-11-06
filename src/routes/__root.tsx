@@ -78,8 +78,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { title: "Pavan & Tisha Wedding Invitation" },
+      { name: "description", content: "Join us for our wedding celebrations at Matoshree Party Plot, Latuda, Surendranagar, December 1–3, 2026. Celebrate with Pavan & Tisha!" },
       { property: "og:type", content: "website" },
+      { property: "og:title", content: "Pavan & Tisha Wedding Invitation" },
+      { property: "og:description", content: "Join us for our wedding celebrations at Matoshree Party Plot, Latuda, Surendranagar, December 1–3, 2026. Celebrate with Pavan & Tisha!" },
+      { property: "og:image", content: "/pavan-tisha-preview.png" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Pavan & Tisha Wedding Invitation" },
+      { name: "twitter:description", content: "Join us for our wedding celebrations at Matoshree Party Plot, Latuda, Surendranagar, December 1–3, 2026. Celebrate with Pavan & Tisha!" },
+      { name: "twitter:image", content: "/pavan-tisha-preview.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, type ReactNode } from "react";
-import couple from "@/assets/couple.jpg";
+import couple from "@/assets/pavan & tisha.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -256,8 +256,8 @@ function Index() {
         </Reveal>
         <Reveal>
           <div className="mx-auto mt-10 max-w-sm rounded-lg border-2 border-burgundy bg-card p-8 shadow-lg transition-all duration-500 hover:shadow-2xl hover:scale-105 hover:border-burgundy-gradient">
-            <h3 className="font-display text-3xl font-bold text-dusty">Matoshree Party Plot</h3>
-            <p className="mt-2 text-burgundy">Latuda, Surendranagar<br />Gujarat, India</p>
+            <h3 className="font-display text-3xl font-extrabold text-dusty text-center">Matoshree Party Plot</h3>
+            <p className="mt-2 text-sm font-normal text-burgundy text-center">Latuda, Surendranagar<br />Gujarat, India</p>
             <a
               href="https://www.google.com/maps/search/?api=1&query=Matoshree%20Party%20Plot%2C%20Latuda%2C%20Surendranagar%2C%20Gujarat"
               target="_blank" rel="noopener noreferrer"
@@ -266,6 +266,10 @@ function Index() {
               View On Google Maps
             </a>
           </div>
+        </Reveal>
+
+        <Reveal className="mt-16">
+          <Motif />
         </Reveal>
 
         <Reveal className="mx-auto mt-14 max-w-sm text-left">
@@ -288,8 +292,8 @@ function Index() {
 
         <Reveal>
           <div className="mx-auto mt-10 max-w-sm rounded-lg border-2 border-burgundy bg-card p-8 shadow-lg transition-all duration-500 hover:shadow-2xl hover:scale-105 hover:border-burgundy-gradient">
-            <h3 className="font-display text-3xl font-bold text-dusty">Shree Gurudwara Sahib</h3>
-            <p className="mt-2 text-burgundy">Gurudwara Rd, Limda Ln<br />Jamnagar, Gujarat 361006</p>
+            <h3 className="font-display text-3xl font-extrabold text-dusty text-center">Shree Gurudwara Sahib</h3>
+            <p className="mt-2 text-sm font-normal text-burgundy text-center">Gurudwara Rd, Limda Ln<br />Jamnagar, Gujarat 361006</p>
             <a
               href="https://www.google.com/maps/search/?api=1&query=Gurudwara%20Rd%2C%20Limda%20Ln%2C%20Jamnagar%2C%20Gujarat%20361006"
               target="_blank" rel="noopener noreferrer"
@@ -334,10 +338,10 @@ function Index() {
 
           <p className="mt-10 font-script text-3xl italic text-burgundy">Little Invitee:</p>
           <div className="mx-auto mt-5 max-w-md space-y-3 font-display text-lg text-dusty">
-              <p>Chachu ki shaadi mein jalool-jalool aana hai - Netra</p>
-            <p>Dhol taashe hue puraane, music carnival & dj ka zamaana hai !</p>
-            <p>Aana to aapako padega ham bacho ka bulawa hai !</p>
-              <p className="text-base">- Netra, Mishti, Mahir, Devik, Jashvi, Devansh, Kaira !!</p>
+            <p>Mere chachu - chachi ki jodi hai kamal , shaadi me aana jarur karenge ham dhamal - Netra</p>
+            <p>Dhol taashe hue puraane, music carnival & dj ka zamaana hai,</p>
+            <p>Aana to aapako padega ham bacho ka bulawa hai,</p>
+            <p className="text-base">- Netra, Mishti, Mahir, Devik, Jashvi, Devansh, Kaira !!</p>
           </div>
 
           <p className="mt-10 font-script text-3xl italic text-burgundy">Firm:</p>
