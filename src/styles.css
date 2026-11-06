@@ -53,7 +53,15 @@
 
 @layer base {
   * { border-color: var(--color-border); }
-  body { background: var(--color-background); color: var(--color-foreground); font-family: var(--font-sans); }
+  body { 
+    background: var(--color-background); 
+    color: var(--color-foreground); 
+    font-family: var(--font-sans);
+    cursor: none;
+  }
+  html, body, main, section, div {
+    cursor: none !important;
+  }
 }
 
 @utility text-burgundy-gradient {

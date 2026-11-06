@@ -139,8 +139,7 @@ function Countdown() {
 const events = [
   { day: "Dec 1, 2026", name: "Muda Vidhi", time: "9:30 AM", note: "Auspicious beginnings with ganesh sthapana" },
   { day: "Dec 1, 2026", name: "Haldi & Music Carnival", time: "10:00 AM", note: "A multi-colour theme, flower haldi & sindhi lada" },
-  { day: "Dec 1, 2026", name: "Sangeet Sandhya", time: "6:00 PM", note: "Dj night & garba" },
-  { day: "Dec 1, 2026", name: "Dinner", time: "8:00 PM", note: "A joyful evening feast with family and friends" },
+  { day: "Dec 1, 2026", name: "Sangeet Sandhya", time: "6:00 PM", note: "DJ night & Garba, Followed by Dinner" },
   { day: "Dec 1, 2026", name: "Sat Son & Ghadiyu", time: "11:00 PM", note: "Traditional sindhi rituals" },
   { day: "Dec 2, 2026", name: "Dikh", time: "10:00 AM", note: "Mugat vidhi celebration" },
   { day: "Dec 2, 2026", name: "Departure For Wedding", time: "02:00 PM", note: "A travel with love, joy & excitement" },
@@ -212,7 +211,25 @@ function Index() {
             WITH THE DIVINE BLESSING OF OUR GODDESS SHREE SATYU MATA
           </p>
           <p className="mx-auto mt-5 max-w-sm font-display text-lg italic text-burgundy">
-            Together with their families, Pavan (s/o Mr. Arjundas Dolatram Kriplani & Mrs. Monikaben Arjundas Kriplani) & Tisha (d/o Mr. Nareshbhai Thavrani & Mrs. Dakshaben Thavrani) request the honour of your presence as we begin our journey of love, laughter, and blessings
+            Together with their families,
+          </p>
+          <p className="mx-auto mt-3 font-display text-2xl font-bold text-burgundy">
+            PAVAN
+          </p>
+          <p className="mx-auto mt-1 max-w-sm font-display text-base italic text-burgundy">
+            (s/o Mrs. Monikaben Arjundas Kriplani & Mr. Arjundas Dolatram Kriplani)
+          </p>
+          <p className="mx-auto mt-2 font-display text-xl text-burgundy">
+            &
+          </p>
+          <p className="mx-auto mt-2 font-display text-2xl font-bold text-burgundy">
+            TISHA
+          </p>
+          <p className="mx-auto mt-1 max-w-sm font-display text-base italic text-burgundy">
+            (d/o Mrs. Dakshaben Nareshbhai Thavrani & Mr. Nareshbhai Deepchand Thavrani)
+          </p>
+          <p className="mx-auto mt-4 max-w-sm font-display text-lg italic text-burgundy">
+            Request the honour of your presence as we begin our journey of love, laughter, and blessings.
           </p>
         </Reveal>
         <Reveal className="mt-10">
@@ -221,18 +238,6 @@ function Index() {
           </div>
         </Reveal>
       </section>
-
-      {/* Date */}
-      <Section
-        kicker="Save The Date"
-        title={<>December <span className="font-countdown">1</span> – <span className="font-countdown">3</span>, 2026</>}
-      >
-        <Reveal>
-          <div className="animate-in zoom-in-95 duration-700">
-            <Countdown />
-          </div>
-        </Reveal>
-      </Section>
 
       {/* Itinerary */}
       <Section kicker="Celebrations" title="Event Itinerary">
@@ -285,6 +290,13 @@ function Index() {
           </ol>
         </Reveal>
 
+        {/* Countdown */}
+        <Reveal className="mt-16">
+          <div className="animate-in zoom-in-95 duration-700">
+            <Countdown />
+          </div>
+        </Reveal>
+
         <Reveal className="mt-12">
           <p className="font-script text-3xl text-burgundy">The Wedding Venue</p>
           <Motif className="mt-4" />
@@ -311,6 +323,7 @@ function Index() {
           <Motif />
           <p className="mt-8 font-script text-3xl italic text-burgundy">Invitees:</p>
           <div className="mx-auto mt-5 grid w-fit max-w-full grid-cols-[auto_auto_auto] gap-x-3 gap-y-3 font-display text-lg text-dusty">
+            <p className="col-span-3 text-center">Indiraben Dolatram Kriplani</p>
             <p className="text-left">Arjundas</p>
             <p className="text-center">&</p>
             <p className="text-right">Monikaben Kriplani</p>
@@ -320,7 +333,9 @@ function Index() {
             <p className="text-left">Ashok Kumar</p>
             <p className="text-center">&</p>
             <p className="text-right">Nilamben Kriplani</p>
-            <p className="col-span-3 text-center">Indiraben Dolatram Kriplani</p>
+            <p className="text-left">Karankumar</p>
+            <p className="text-center">&</p>
+            <p className="text-right">Kiranben Kriplani</p>
           </div>
 
           <p className="mt-10 font-script text-3xl italic text-burgundy">With blessings of:</p>
