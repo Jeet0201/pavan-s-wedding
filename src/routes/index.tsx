@@ -171,6 +171,9 @@ function Index() {
         <Mandala className="absolute -top-24 -left-24 w-72 opacity-30 animate-[spin_60s_linear_infinite]" />
         <Mandala className="absolute -bottom-24 -right-24 w-72 opacity-30 animate-[spin_60s_linear_infinite]" />
         <p className="animate-in fade-in duration-1000 font-display text-4xl uppercase tracking-[0.3em] text-burgundy">Shubh Vivah</p>
+        <p className="animate-in fade-in duration-1000 delay-300 font-display text-2xl font-bold tracking-wide text-burgundy mt-4">
+          3<sup className="text-sm">rd</sup> December 2026
+        </p>
         <button
           onClick={() => { setOpen(true); window.scrollTo(0, 0); }}
           className="group relative mt-8 h-56 w-80 rounded-lg border-2 border-burgundy bg-card shadow-xl transition hover:-translate-y-1 animate-in zoom-in-95 duration-1000"
