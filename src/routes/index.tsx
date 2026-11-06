@@ -341,10 +341,10 @@ function Index() {
             <p className="text-right">Karunaben Kriplani</p>
             <p className="text-left">Ashok Kumar</p>
             <p className="text-center">&</p>
-            <p className="text-right">Nilamben Kriplani</p>
+            <p className="text-right">Nilam Kriplani</p>
             <p className="text-left">Karankumar</p>
             <p className="text-center">&</p>
-            <p className="text-right">Kiran</p>
+            <p className="text-right">Kiran Kriplani</p>
             <p className="col-span-3 text-center">Madhu Dipakbhai Kriplani</p>
           </div>
         </Reveal>
