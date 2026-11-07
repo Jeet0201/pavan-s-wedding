@@ -361,13 +361,13 @@ function Index() {
         </Reveal>
 
         <Reveal>
-          <p className="mt-10 font-script text-3xl italic text-burgundy">Well wisher:</p>
+          <p className="mt-10 font-script text-3xl italic text-burgundy">Well wishers:</p>
         </Reveal>
         
         <Reveal>
           <div className="mt-5 space-y-2 font-display text-lg text-dusty">
-            <p>Holaram Gopaldas Ramchandani</p>
-            <p>Pooja Holaram Ramchandani</p>
+            <p>Shri Holaram & Smt Pooja Ramchandani</p>
+            <p>Shri Dineshkumar & Smt Bhavini Matlani</p>
           </div>
         </Reveal>
 
