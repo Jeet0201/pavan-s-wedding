@@ -331,7 +331,7 @@ function Index() {
         </Reveal>
         
         <Reveal>
-          <div className="mx-auto mt-5 grid w-fit grid-cols-[auto_auto_auto] gap-x-3 gap-y-3 font-display text-lg text-dusty" style={{ minWidth: 'max-content' }}>
+          <div className="mx-auto mt-5 grid w-fit grid-cols-[minmax(auto,max-content)_auto_minmax(auto,max-content)] gap-x-3 gap-y-3 font-display text-lg text-dusty" style={{ minWidth: 'max-content' }}>
             <p className="col-span-3 text-center whitespace-nowrap">Indiraben Dolatram Kriplani</p>
             <p className="text-left whitespace-nowrap">Arjundas</p>
             <p className="text-center whitespace-nowrap">&</p>
@@ -344,7 +344,7 @@ function Index() {
             <p className="text-right whitespace-nowrap">Nilamben Kriplani</p>
             <p className="text-left whitespace-nowrap">Karankumar</p>
             <p className="text-center whitespace-nowrap">&</p>
-            <p className="text-right whitespace-nowrap">Kiranben Kriplani</p>
+            <p className="text-right whitespace-nowrap">Kiran&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kriplani</p>
             <p className="col-span-3 text-center whitespace-nowrap">Madhu Dipakbhai Kriplani</p>
           </div>
         </Reveal>
