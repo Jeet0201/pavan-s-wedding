@@ -394,6 +394,17 @@ function Index() {
             <p><span className="font-countdown">2.</span> Ajit Kumar Dolatram</p>
           </div>
         </Reveal>
+
+        <Reveal>
+          <p className="mt-10 font-script text-3xl italic text-burgundy">Contact:</p>
+        </Reveal>
+        
+        <Reveal>
+          <div className="mx-auto mt-5 flex flex-col items-center gap-y-2 font-display text-lg text-dusty">
+            <p>Arjundas - 9427552323</p>
+            <p>Karankumar - 7405222573</p>
+          </div>
+        </Reveal>
       </section>
 
       <footer className="relative px-6 pt-12 pb-20 text-center">
